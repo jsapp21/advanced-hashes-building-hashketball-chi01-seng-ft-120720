@@ -6,7 +6,7 @@ def game_hash
    :home => {
      :team_name => "Brooklyn Nets",
      :colors => ["Black", "White"],
-     :players => [ 
+     :players =>  
         {
           :player_name => "Alan Anderson",
           :number => 0,
@@ -62,12 +62,12 @@ def game_hash
           :blocks => 11,
           :slam_dunks => 1
         }
-       ] # ends home players array 
+        # ends home players array 
    },
    :away => {
      :team_name => "Charlotte Hornets", 
      :colors => ["Turquoise", "Purple"], 
-     :players => [
+     :players => 
         {
           :player_name => "Jeff Adrien",
           :number => 4,
@@ -123,7 +123,7 @@ def game_hash
           :blocks => 5,
           :slam_dunks => 12 
         }
-       ] # ends away player array 
+        # ends away player array 
    }
  } # ends main hash
 
